@@ -2,7 +2,7 @@ class Error:
     def __init__(self, *args):
         self.my_list = []
 
-    def my_input(self):
+    def my_input(self) -> object:
 
         # self.my_list = [int(i) for i in input('Введите значения через пробел ').split()]
         # val = int(input('Введите значения и нажимайте Enter - '))

@@ -6,7 +6,7 @@ class DivisionByNull:
     @staticmethod
     def divide_by_null(divider, denominator):
         try:
-            return (divider / denominator)
+            return divider / denominator
         except:
             return (f"Деление на ноль недопустимо")
 
